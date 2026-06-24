@@ -1,0 +1,11 @@
+name: simple-ml-experiments
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      - jax
+      - jaxlib
